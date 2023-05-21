@@ -1,0 +1,49 @@
+[gd_resource type="TileSet" load_steps=19 format=3 uid="uid://bcfn8t1351jgn"]
+
+[ext_resource type="Texture2D" uid="uid://eh541awcxsy4" path="res://Tile/Water.png" id="1_idisq"]
+[ext_resource type="Texture2D" uid="uid://dgh5qow0tkvv3" path="res://Tile/Cliff.png" id="2_52j3o"]
+[ext_resource type="Texture2D" uid="uid://d03h2va5fvjhl" path="res://Tile/Doodad.png" id="3_ll73g"]
+[ext_resource type="Texture2D" uid="uid://b4iudai1ch8h5" path="res://Tile/Edge.png" id="4_kph2i"]
+[ext_resource type="Texture2D" uid="uid://bxoimippscy6a" path="res://Tile/Light.png" id="5_pus3h"]
+[ext_resource type="Texture2D" uid="uid://bofaycgceu44q" path="res://Tile/LightDebug.png" id="6_yn2o5"]
+[ext_resource type="Texture2D" uid="uid://bvkygl6t8yop5" path="res://Tile/Outside.png" id="7_8slig"]
+[ext_resource type="Texture2D" uid="uid://dfr48oekfwetq" path="res://Tile/Rubble.png" id="8_clyil"]
+[ext_resource type="Texture2D" uid="uid://bxihavur2ferf" path="res://Tile/Theme.png" id="9_c2d2b"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6be2m"]
+texture = ExtResource("1_idisq")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nwfii"]
+texture = ExtResource("2_52j3o")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_u4upc"]
+texture = ExtResource("3_ll73g")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yllhi"]
+texture = ExtResource("4_kph2i")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_re3qg"]
+texture = ExtResource("5_pus3h")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4hh8p"]
+texture = ExtResource("6_yn2o5")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_aax6n"]
+texture = ExtResource("7_8slig")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1d4h7"]
+texture = ExtResource("8_clyil")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_r7c27"]
+texture = ExtResource("9_c2d2b")
+
+[resource]
+sources/2 = SubResource("TileSetAtlasSource_nwfii")
+sources/3 = SubResource("TileSetAtlasSource_u4upc")
+sources/4 = SubResource("TileSetAtlasSource_yllhi")
+sources/5 = SubResource("TileSetAtlasSource_re3qg")
+sources/6 = SubResource("TileSetAtlasSource_4hh8p")
+sources/7 = SubResource("TileSetAtlasSource_aax6n")
+sources/8 = SubResource("TileSetAtlasSource_1d4h7")
+sources/9 = SubResource("TileSetAtlasSource_r7c27")
+sources/10 = SubResource("TileSetAtlasSource_6be2m")
