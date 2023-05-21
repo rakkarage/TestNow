@@ -1,10 +1,10 @@
 [gd_scene load_steps=2 format=3 uid="uid://ckslvm8vl8xwp"]
 
-[ext_resource type="TileSet" uid="uid://bcfn8t1351jgn" path="res://new_tile_set.tres" id="1_r7ngb"]
+[ext_resource type="TileSet" uid="uid://bcfn8t1351jgn" path="res://new_tile_set.tres" id="1_1yfbt"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="TileMap" type="TileMap" parent="."]
-tile_set = ExtResource("1_r7ngb")
+tile_set = ExtResource("1_1yfbt")
 format = 2
 layer_0/tile_data = PackedInt32Array(0, 0, 0, 65536, 0, 0, 65537, 0, 0, 65538, 0, 0, 65539, 0, 0, 65540, 0, 0, 65541, 0, 0, 65542, 0, 0, 65543, 0, 0, 65544, 0, 0, 65545, 0, 0, 65546, 0, 0, 196609, 0, 1, 196610, 0, 1, 196611, 0, 1, 196612, 0, 1, 196613, 0, 1, 196614, 0, 1, 196615, 0, 1, 196616, 0, 1, 196617, 0, 1, 196618, 0, 1)
