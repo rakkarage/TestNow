@@ -1,0 +1,88 @@
+[gd_scene load_steps=20 format=3 uid="uid://dsfkfv6ed5ak4"]
+
+[ext_resource type="Texture2D" uid="uid://dgh5qow0tkvv3" path="res://Tile/Cliff.png" id="1_br2n8"]
+[ext_resource type="Texture2D" uid="uid://d03h2va5fvjhl" path="res://Tile/Doodad.png" id="2_qplse"]
+[ext_resource type="Texture2D" uid="uid://b4iudai1ch8h5" path="res://Tile/Edge.png" id="3_e8oyi"]
+[ext_resource type="Texture2D" uid="uid://bxoimippscy6a" path="res://Tile/Light.png" id="4_imnq1"]
+[ext_resource type="Texture2D" uid="uid://bofaycgceu44q" path="res://Tile/LightDebug.png" id="5_qqqkx"]
+[ext_resource type="Texture2D" uid="uid://bvkygl6t8yop5" path="res://Tile/Outside.png" id="6_jwiky"]
+[ext_resource type="Texture2D" uid="uid://dfr48oekfwetq" path="res://Tile/Rubble.png" id="7_wf30l"]
+[ext_resource type="Texture2D" uid="uid://bxihavur2ferf" path="res://Tile/Theme.png" id="8_p3jjx"]
+[ext_resource type="Texture2D" uid="uid://eh541awcxsy4" path="res://Tile/Water.png" id="9_ufpfq"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4kkcl"]
+texture = ExtResource("1_br2n8")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vebkf"]
+texture = ExtResource("2_qplse")
+0:0/animation_frame_0/duration = 1.0
+0:0/animation_frame_1/duration = 1.0
+0:0/animation_frame_2/duration = 1.0
+0:0/animation_frame_3/duration = 1.0
+0:0/animation_frame_4/duration = 1.0
+0:0/animation_frame_5/duration = 1.0
+0:0/0 = 0
+0:1/animation_frame_0/duration = 1.0
+0:1/animation_frame_1/duration = 1.0
+0:1/animation_frame_2/duration = 1.0
+0:1/animation_frame_3/duration = 1.0
+0:1/animation_frame_4/duration = 1.0
+0:1/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lbcyb"]
+texture = ExtResource("3_e8oyi")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_d25l6"]
+texture = ExtResource("4_imnq1")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_w884m"]
+texture = ExtResource("5_qqqkx")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_e44sj"]
+texture = ExtResource("6_jwiky")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wqbrw"]
+texture = ExtResource("7_wf30l")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_m1nby"]
+texture = ExtResource("8_p3jjx")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_u5qxl"]
+texture = ExtResource("9_ufpfq")
+
+[sub_resource type="TileSet" id="TileSet_4cuev"]
+sources/0 = SubResource("TileSetAtlasSource_4kkcl")
+sources/1 = SubResource("TileSetAtlasSource_vebkf")
+sources/2 = SubResource("TileSetAtlasSource_lbcyb")
+sources/3 = SubResource("TileSetAtlasSource_d25l6")
+sources/4 = SubResource("TileSetAtlasSource_w884m")
+sources/5 = SubResource("TileSetAtlasSource_e44sj")
+sources/6 = SubResource("TileSetAtlasSource_wqbrw")
+sources/7 = SubResource("TileSetAtlasSource_m1nby")
+sources/8 = SubResource("TileSetAtlasSource_u5qxl")
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_4cuev")
+format = 2

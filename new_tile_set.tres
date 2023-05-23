@@ -1,9 +1,11 @@
-[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://bcfn8t1351jgn"]
+[gd_resource type="TileSet" load_steps=7 format=3 uid="uid://bcfn8t1351jgn"]
 
-[ext_resource type="Texture2D" uid="uid://bxihavur2ferf" path="res://Tile/Theme.png" id="1_jgu73"]
+[ext_resource type="Texture2D" uid="uid://bxihavur2ferf" path="res://Tile/Theme.png" id="1_wcniq"]
+[ext_resource type="Texture2D" uid="uid://dgh5qow0tkvv3" path="res://Tile/Cliff.png" id="2_tmigy"]
+[ext_resource type="Texture2D" uid="uid://d03h2va5fvjhl" path="res://Tile/Doodad.png" id="3_nc7qt"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_njgw3"]
-texture = ExtResource("1_jgu73")
+texture = ExtResource("1_wcniq")
 0:0/next_alternative_id = 2
 0:0/animation_speed = 8.0
 0:0/animation_frame_0/duration = 1.0
@@ -596,5 +598,46 @@ texture = ExtResource("1_jgu73")
 28:1/0 = 0
 28:1/1 = 1
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0f7or"]
+texture = ExtResource("2_tmigy")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2fduo"]
+texture = ExtResource("3_nc7qt")
+0:0/animation_frame_0/duration = 1.0
+0:0/animation_frame_1/duration = 1.0
+0:0/animation_frame_2/duration = 1.0
+0:0/animation_frame_3/duration = 1.0
+0:0/animation_frame_4/duration = 1.0
+0:0/animation_frame_5/duration = 1.0
+0:0/0 = 0
+0:1/animation_frame_0/duration = 1.0
+0:1/animation_frame_1/duration = 1.0
+0:1/animation_frame_2/duration = 1.0
+0:1/animation_frame_3/duration = 1.0
+0:1/animation_frame_4/duration = 1.0
+0:1/0 = 0
+
 [resource]
 sources/0 = SubResource("TileSetAtlasSource_njgw3")
+sources/1 = SubResource("TileSetAtlasSource_0f7or")
+sources/2 = SubResource("TileSetAtlasSource_2fduo")
